@@ -371,7 +371,8 @@ img {
 }
 /*---------------------------- About ---------------------------*/
 .qr__img{
-    width: 400px;
+    max-width: 400px;
+    aspect-ratio: 1;
     border-radius: 0.5rem;
     align-self: center;
     justify-self: center;
