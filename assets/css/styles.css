@@ -370,7 +370,7 @@ img {
     color: var(--first-color-alt);
 }
 /*---------------------------- About ---------------------------*/
-.qr__img{
+#qr__img{
     max-width: 400px;
     aspect-ratio: 1;
     border-radius: 0.5rem;
