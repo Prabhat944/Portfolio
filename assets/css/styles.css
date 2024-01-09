@@ -370,6 +370,13 @@ img {
     color: var(--first-color-alt);
 }
 /*---------------------------- About ---------------------------*/
+.qr__img{
+    width: 400px;
+    border-radius: 0.5rem;
+    align-self: center;
+    justify-self: center;
+}
+
 .about__img{
     width: 200px;
     border-radius: 0.5rem;
