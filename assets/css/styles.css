@@ -481,47 +481,59 @@ img {
 }
 
 .skills__html{
-    width: 90%;
+    width: 75%;
 }
 
 .skills__css{
-    width: 80%;
+    width: 78%;
 }
 
 .skills__js{
     width: 80%;
 }
 
+.skills__ts{
+    width: 70%;
+}
+
 .skills__react{
     width: 85%;
 }
 
+.skills__next{
+    width:80%;
+}
+
+.skills__reactnative{
+    width:60%;
+}
+
 .skills__node{
-    width: 60%;
+    width: 72%;
 }
 
 .skills__express{
-    width: 65%;
+    width: 75%;
 }
 
 .skills__mongo{
     width: 70%;
 }
 
-.skills__sql{
-    width: 25%;
+.skills__aws{
+    width: 40%;
 }
 
 .skills__figma{
     width: 70%;
 }
 
-.skills__sketch{
-    width: 60%;
+.skills__git{
+    width: 80%;
 }
 
-.skills__photoshop{
-    width: 50%;
+.skills__strapi{
+    width: 78%;
 }
 
 .skills__close .skills__list{
