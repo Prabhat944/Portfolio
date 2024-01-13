@@ -50,9 +50,27 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#contact" class="nav__link">
+                        <span class="services__button">
+                        <a href="#home" class="nav__link">
                             <i class="uil uil-message nav__icon"></i>Contact Me
                         </a>
+                     </span>
+                     <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Scan Here</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services">
+                                <li class="services__modal-service">
+                                    <img id="qr__img" src="assets/img/resumeQR.png" alt="">
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <h4>Call me:- 9939147728</h4>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
                     </li>
                 </ul>
                 <i class="uil uil-times nav__close" id="nav-close"></i>
@@ -95,32 +113,6 @@
                     </div>
 
                     <div class="home__img">
-                        <!-- <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <mask id="mask0" mask-type="alpha">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                                130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                                97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                                0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                            </mask>
-                            <g mask="url(#mask0)">
-                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                                165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                                129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                                -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                                <image class="home__blob-img" x="18" y="2" href="assets/img/perfil.png"/>
-                            </g>
-                        </svg> -->
-                        <!--?xml version="1.0" standalone="no"?-->              
-                        <!--?xml version="1.0" standalone="no"?-->              
-                        <!-- <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
-                                    <stop id="stop1" stop-color="rgba(55, 238.193, 248, 1)" offset="0%"></stop>
-                                    <stop id="stop2" stop-color="rgba(0, 143.785, 249.379, 1)" offset="100%"></stop>
-                                </linearGradient>
-                            </defs>                
-                               <path fill="url(#sw-gradient)" d="M19.7,-35C26.1,-30.4,32.4,-26.4,37.1,-20.6C41.8,-14.9,44.9,-7.4,45.2,0.2C45.5,7.8,42.9,15.6,38.1,21C33.2,26.4,26,29.5,19.3,33.7C12.6,37.8,6.3,43,-0.9,44.5C-8,46.1,-16.1,43.9,-21.4,39C-26.8,34,-29.4,26.3,-33.6,19.3C-37.7,12.3,-43.3,6.2,-44.8,-0.9C-46.4,-8,-43.9,-15.9,-38.4,-20.5C-32.8,-25,-24.3,-26.1,-17.4,-30.5C-10.5,-34.8,-5.2,-42.2,0.7,-43.4C6.6,-44.6,13.2,-39.5,19.7,-35Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;" stroke="url(#sw-gradient)"></path>
-                        </svg> -->
                         <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <defs>
                                 <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
@@ -147,25 +139,27 @@
                     <p class="home__description">FullStack Web Developer with 2+ years of MERN stack expertise, excelling in crafting efficient dashboards, implementing secure AWS
                         solutions, and delivering successful large-scale e-commerce
                         projects.</p>
+                    <span class="services__button">
                     <a href="#contact" class="button button--flex">
-                        <span class="services__button">Contact Me</span> <i class="uil uil-message button__icon"></i>
-                        <div class="services__modal">
-                            <div class="services__modal-content">
-                                <h4 class="services__modal-title">Scan Here</h4>
-                                <i class="uil uil-times services__modal-close"></i>
-                                <ul class="services__modal-services">
-                                    <li class="services__modal-service">
-                                        <img id="qr__img" src="assets/img/resumeQR.png" alt="">
-                                    </li>
-                                    <li class="services__modal-service">
-                                        <i class="uil uil-check-circle services__modal-icon"></i>
-                                        <h4>Call me:- 9939147728</h4>
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                        </div>
+                        Contact Me <i class="uil uil-message button__icon"></i>
                     </a>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <h4 class="services__modal-title">Scan Here</h4>
+                            <i class="uil uil-times services__modal-close"></i>
+                            <ul class="services__modal-services">
+                                <li class="services__modal-service">
+                                    <img id="qr__img" src="assets/img/resumeQR.png" alt="">
+                                </li>
+                                <li class="services__modal-service">
+                                    <i class="uil uil-check-circle services__modal-icon"></i>
+                                    <h4>Call me:- 9939147728</h4>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="home__scroll">
@@ -520,7 +514,7 @@
                         </div>
                         <div>
                             <h3 class="qualification__title">Software developer</h3>
-                            <span class="qualification__subtitle">Gurgaon - Dresma</span>
+                            <span class="qualification__subtitle">Dresma - Gurgaon</span>
                             <div class="qualification__calender">
                                 <i class="uil uil-calender-alt"></i>
                                 2022 - Present
@@ -535,12 +529,28 @@
                <div class="qualification__content" data-content id="work">
                 <!-- ------------------------- Qualification 1 -------------------------------- -->
                 <div class="qualification__data">
+                    <div></div>
                     <div>
-                        <h3 class="qualification__title">Software developer</h3>
-                        <span class="qualification__subtitle">Gurgaon - Dresma</span>
+                        <span class="qualification__rounder"></span>
+                        <span class="qualification__line"></span>
+                    </div>
+                    <div>
+                        <h3 class="qualification__title">Robotics engineer</h3>
+                        <span class="qualification__subtitle">Innovative Project Solution - Ludhiana (Punjab)</span>
                         <div class="qualification__calender">
                             <i class="uil uil-calender-alt"></i>
-                            2022 - Present
+                            2019 - 2021
+                        </div>
+                    </div>
+                </div>
+                <!-- ------------------------- Qualification 2 -------------------------------- -->
+                <div class="qualification__data">
+                    <div>
+                        <h3 class="qualification__title">Software Developer(Intern)</h3>
+                        <span class="qualification__subtitle">myWebLink - Bangalore</span>
+                        <div class="qualification__calender">
+                            <i class="uil uil-calender-alt"></i>
+                            2021 - 2022
                         </div>
                     </div>
 
@@ -559,28 +569,11 @@
                     </div>
                     <div>
                         <h3 class="qualification__title">Software developer</h3>
-                        <span class="qualification__subtitle">Gurgaon - Dresma</span>
+                        <span class="qualification__subtitle">Dresma - Gurgaon</span>
                         <div class="qualification__calender">
                             <i class="uil uil-calender-alt"></i>
-                            2022-2023
+                            2022 - Present
                         </div>
-                    </div>
-                </div>
-
-                <!-- ------------------------- Qualification 3 -------------------------------- -->
-                <div class="qualification__data">
-                    <div>
-                        <h3 class="qualification__title">Ui Designer</h3>
-                        <span class="qualification__subtitle">Gurgaon - Dresma</span>
-                        <div class="qualification__calender">
-                            <i class="uil uil-calender-alt"></i>
-                            2022 - 2023
-                        </div>
-                    </div>
-
-                    <div>
-                        <span class="qualification__rounder"></span>
-                        <!-- <span class="qualification__line"></span> -->
                     </div>
                 </div>
 
@@ -606,7 +599,7 @@
                 <span class="button button--flex button--small button--link services__button">
                     View More
                     <i class="uil uil-arrow-right button__icon"></i>
-                </span> 
+                </span>
 
                 <div class="services__modal">
                     <div class="services__modal-content">
@@ -632,7 +625,7 @@
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> 
             </div>
 
             <!-- ------------------------- Services 2 -------------------------------- -->
